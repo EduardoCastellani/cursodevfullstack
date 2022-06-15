@@ -1,0 +1,30 @@
+body {
+    background: rgb(160, 151, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(34, 34, 34);
+}
+
+.foto-principal{
+    width: 200px;
+}
+
+.foto-principal{
+
+    border:2px solid #ffffff; /* Estilo Shorthand */
+    border-radius:  15%; /* arredondamento da imagem, valores podem ser - value,value,value,value */ 
+    margin: 30px;
+    box-shadow: 0px 0px 10px #515151;
+}
+
+h1{
+    margin-bottom: 0px;
+    letter-spacing: -1;
+}
+
+h2{
+    margin-top: 0px;
+    font-style: italic;
+    color: rgb(73, 73, 73);
+    font-weight: 100px;
+    letter-spacing: -1;
+}

@@ -1,0 +1,62 @@
+body {
+
+    background: rgb(160, 151, 151);
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 34, 34);
+}
+
+.container {
+
+    width: 900px;
+    margin: 0 auto;
+  }
+
+.profile {
+
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.foto-principal{
+
+    width: 200px;
+}
+
+.foto-principal{
+
+    border:2px solid #ffffff; /* Estilo Shorthand */
+    border-radius:  15%; /* arredondamento da imagem, valores podem ser - value,value,value,value */ 
+    margin: 30px 30px 0px 30px;
+    box-shadow: 0px 0px 10px #515151;
+}
+.social-links{
+    text-decoration: none;
+}
+
+.social-icons{
+
+    width: 42px;
+    margin: 0 8px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    letter-spacing: -1;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 45px;
+}
+
+h2{
+    margin-top: 0px;
+    font-style: italic;
+    color: rgb(73, 73, 73);
+    font-weight: 100px;
+    letter-spacing: -1;
+}
+
+p{
+    line-height: 25px;
+}
+
