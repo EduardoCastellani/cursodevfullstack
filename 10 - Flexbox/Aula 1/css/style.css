@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: silver;
+    align-items: center; /* Alinhamento Horizontal*/
+    flex-wrap: wrap;
+    align-content: center; /* Alinhamento Vertical*/
+
+    height: 600px;
+
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+
+}
+
+.red {
+    background-color: red;
+
+}
+
+.blue {
+    background-color: blue;
+    
+}
+
+.yellow {
+    background-color: yellow;
+    
+}
+
+.green {
+    background-color: green;
+    
+}

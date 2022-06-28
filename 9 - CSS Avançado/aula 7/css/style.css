@@ -1,0 +1,39 @@
+body {
+    margin: 100px
+
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    animation-name: minhapomba;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-delay: 3000ms;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes minhapomba {
+    0% {
+        background-color: black;
+
+    }
+
+    33% {
+        transform: rotate(120deg) translate(50px, 70px);
+    }
+
+    50% {
+        border: 20px solid cornflowerblue;
+    }
+
+    100% {
+        border: 0px solid cornflowerblue;
+        background-color:blueviolet;
+        transform: rotate(360deg);
+    }
+
+}
