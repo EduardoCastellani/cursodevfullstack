@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+
+}
+
+@media (min-width:400px) {
+    body {
+        background-color: rgb(70, 247, 253);
+        color: blue;
+    }
+
+    p {
+        font-size: 40px;
+    }
+
+    img {
+        display: none;
+    } 
+}
+
+@media (min-width:401px) and (max-width:600px) {
+    body {
+        background-color: green;
+        color: blue;
+    }
+
+}
+
+@media (min-width:601px) and (max-width:800px) {
+    body {
+        background-color: blue;
+
+    }
+}
